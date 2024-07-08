@@ -1,0 +1,1 @@
+target_sources(slo_typelist_test PRIVATE main.cpp)

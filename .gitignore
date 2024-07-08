@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+**/scratchpad*
+
+.cache
+.pytest_cache
+build
+
+compile_commands.json

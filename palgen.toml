@@ -1,0 +1,7 @@
+[palgen]
+output = "build"
+
+[project]
+name = "slo::typelist"
+version = "0.1"
+sources = ["include", "benchmark"]
