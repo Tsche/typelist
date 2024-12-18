@@ -22,7 +22,7 @@ template <typename... Ts>
 struct TypeList;
 
 // standard case alias
-// you might find that slo::typelist is more pleasant on the eyes
+// you might find that slo::type_list is more pleasant on the eyes
 template <typename... Ts>
 using type_list = TypeList<Ts...>;
 
@@ -343,7 +343,8 @@ struct ConstantTemplate {
 
 // quote helper
 template <typename T>
-// T is already a type, could alternatively yield std::type_identity<T> here
+// T is already a type
+// could alternatively yield std::type_identity<T> here if proper quoting is desired
 auto as_type() -> T;
 
 template <auto T>
